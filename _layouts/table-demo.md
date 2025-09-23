@@ -10,7 +10,8 @@ gosling:
   weaknesses: [micky mouse club, cries a lot, not ryan reynolds]
 ---
 
-![](img/ryan-v-ryan.jpg)
+![](assets/ryan-v-ryan-Lab5.jpg)
+
 
 {% assign r = page.reynolds %}
 {% assign g = page.gosling %}
