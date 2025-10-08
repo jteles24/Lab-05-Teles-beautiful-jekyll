@@ -1,43 +1,42 @@
 ---
 layout: liquid-table
-title: 'amiright?'
+title: amiright?
+permalink: /table-demo/
 reynolds:
   strengths:
-  - good father
-  - funny
-  - dated alanis morissette
-  weaknesses: 
-  - singing
-  - green lantern movie
-  - tennis backhand 
+    - good father
+    - funny
+    - dated alanis morissette
+  weaknesses:
+    - singing
+    - green lantern movie
+    - tennis backhand
 gosling:
-  strengths: 
-  - builds houses
-  - is a real boy
-  - never dated alanis morissette
-  weaknesses: 
-  - micky mouse club
-  - cries a lot
-  - not ryan reynolds
+  strengths:
+    - builds houses
+    - is a real boy
+    - never dated alanis morissette
+  weaknesses:
+    - micky mouse club
+    - cries a lot
+    - not ryan reynolds
 ---
 
+![Ryan vs Ryan](/assets/ryan-v-ryan-Lab5.jpg)
 
-![Ryan vs Ryan]({{ site.url }}/assets/ryan-v-ryan-Lab5.jpg)
+{% assign r = page.reynolds %}
+{% assign g = page.gosling %}
 
- 
-
-
-## Lorem Ipsum
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-<hr>
-
-<style>
-  
-.ryan-image {
-  width: 300px;
-  display: block;
-  margin: 1rem auto;
-}
-</style>
+<table>
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Ryan Reynolds</th>
+      <th>Ryan Gosling</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Strengths</td>
+      <td><ul>{% for s in r.strengths %}<li>{{ s }}</li>{% endfor %}</ul></td>
+      <td><ul>{% for s in g.strengths %}<li>{{ s }}</li>{% endfor
