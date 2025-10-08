@@ -22,7 +22,8 @@ gosling:
 ---
 
 
-<img src="/assets/img/ryan-v-ryan.jpg" style="width:100%;" alt="Ryan vs Ryan" class="ryan-image">
+![Ryan vs Ryan]({{ site.url }}/assets/ryan-v-ryan-Lab5.jpg)
+
  
 
 
