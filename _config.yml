@@ -1,3 +1,4 @@
+
 # Welcome to Beautiful Jekyll!
 # This config file is meant for settings that affect your entire website. When you first
 # set up your website you should go through all these settings and edit them, but after
@@ -6,31 +7,23 @@
 # --- Required options --- #
 
 # Name of website
-title: Github for Dummies
-# Short description of your site
-description: A student learning the way through GitHub and web design
+title: Lab 05 GitHub Pages
+subtitle: Jessica Teles
 
 # Your name to show in the footer
-author: Jessica Teles
+author: Patricia Hernandez
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
   About Me: "aboutme"
-  Getting Started: "getstarted"
+  Resources:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+      Author's home: ""
   Table Demo: "table-demo"
-  Author's home: "https://deanattali.com"
+  Getting Started: "gettingstarted"
 
-# Personalize the colors in your website. Colour values can be any valid CSS colour
-navbar-col: "#F5F5F5"
-navbar-text-col: "#404040"
-navbar-children-col: "#F5F5F5"
-page-col: "#FFFFFF"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#F5F5F5"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
 
 # --- Logo --- #
 
@@ -46,18 +39,17 @@ round-avatar: true
 #title-img: /path/to/image
 
 
-
 # --- Footer social media links --- #
 
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  email: ""
+  facebook: ""
+  github: ""
+  twitter: ""
+#  patreon: ""
+#  youtube: 
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -91,7 +83,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "pathernz.github.io"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -112,16 +104,17 @@ post_search: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
+navbar-col:       "#f7a8b8"   # soft pink (navbar background)
+navbar-text-col:  "#4a1c2a"   # deep rose (navbar text)
+navbar-border-col: "#fbc4d2"   # lighter pink (navbar border)
+page-col:         "#fde4ec"   # pale blush (page background)
+text-col:         "#4a1c2a"   # deep rose (general text)
+link-col:         "#b23a48"   # vibrant cherry red-pink (links)
+hover-col:        "#e27396"   # bright pink (hover state)
+footer-col:       "#f7a8b8"   # soft pink (footer background)
+footer-text-col:  "#4a1c2a"   # deep rose (footer text)
+footer-link-col:  "#b23a48"   # cherry pink (footer links)
+
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -248,5 +241,3 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
-Updated config with title, description, navbar, and colors
